@@ -1,0 +1,20 @@
+{
+  "short_name":"RevvAssistant",
+  "name": "RevvAssistant",
+  "background" : {
+    "scripts" : ["background.js"],
+    "persistent" : false
+  },
+  "icons": {
+    "16": "book-and-pencil.png",
+    "48": "book-and-pencil.png",
+   "128": "book-and-pencil.png"
+  },
+  "permissions": ["alarms"],
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "book-and-pencil.png"
+  }
+}
